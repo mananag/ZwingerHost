@@ -13,7 +13,8 @@ body {
   font-family: "Poppins-Regular";
   color: #333;
   font-size: 13px;
-  margin: 0; }
+  margin: 0; 
+}
 
 input, textarea, select, button {
   font-family: "Poppins-Regular";
