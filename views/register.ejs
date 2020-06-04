@@ -1,19 +1,24 @@
 <title>Registration of Hostel</title>
 <link rel="shortcut icon" href="/images/logos/logo.png" type="image/x-icon" />
+<link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/fonts/material-design-iconic-font.min.css" />
+<link rel="stylesheet" href="/assets/font/fonts.css">
 
 
 <link rel="stylesheet" href="/css/style2.css">
-<div class="topnav">
-  <a href="/views/index.ejs">Home</a>
-  <a href="/users/login">Login</a>
-
+<div id="nav">
+  <div class="nav-logo"  onclick="location.href='/'">
+      <img src="/assets/img/logo/logo(1).png">WINGER
+  </div>
+  <div class="nav-elements" style="margin-left: auto;" onclick="location.href='/husers/login'">Login</div>
+  <div class="nav-elements signup" onclick="location.href='/husers/register'">Sign up</div>
 </div>
+<div style="margin-bottom: 15vh;"></div>
 <div class="wrapper" style="background-image: url('/images/home/1.jpg');">
   <div class="inner">
-    <div class="image-holder">
+    <!-- <div class="image-holder">
       <img src="/images/home/main1.jpeg" height="700px" width="800px" alt="">
-    </div>
+    </div> -->
 
     <form action="/husers/register" method="POST">
       <div class="container">
@@ -82,3 +87,4 @@
         <p>Already have an account? <a href="/users/login">Sign in</a>.</p>
       </div>
     </form>
+    <script src="/assets/js/response.js"></script>

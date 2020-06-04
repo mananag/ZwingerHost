@@ -35,10 +35,10 @@
 	<!-- Header Start -->
 	<header>
         <div id="nav">
-            <div class="nav-logo">
+            <div class="nav-logo"  onclick="location.href='/'">
                 <img src="/assets/img/logo/logo(1).png">WINGER
             </div>
-            <div class="nav-elements" style="margin-left: 60vw;" onclick="location.href='/husers/login'">Login</div>
+            <div class="nav-elements" style="margin-left: auto;" onclick="location.href='/husers/login'">Login</div>
             <div class="nav-elements signup" onclick="location.href='/husers/register'">Sign up</div>
         </div>
        <!-- <div class="header-area">
@@ -79,7 +79,7 @@
        </div> --> 
         <!-- Header End -->
     </header>
-
+    <div style="margin-top: 15vh;"></div>
     <main>
         <img src="/assets/img/hero/98210.jpg">
     </main>
@@ -173,17 +173,6 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="/assets/js/plugins.js"></script>
         <script src="/assets/js/main.js"></script>
-        <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("nav").style.top = "0";
-            } else {
-                document.getElementById("nav").style.top = "-15vh";
-            }
-            prevScrollpos = currentScrollPos;
-            }
-        </script>
+        <script src="/assets/js/response.js"></script>
   </body>
 </html>
