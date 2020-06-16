@@ -78,7 +78,9 @@ a:hover {
   background: #fff;
   max-width: 850px;
   margin: auto;
-  display: flex; }
+  display: flex;
+  opacity: 0.9;
+  transform: translateX(-60%); }
   .inner .image-holder {
     width: 50%; }
   .inner form {
