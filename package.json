@@ -18,7 +18,7 @@
     "express-session": "^1.17.0",
     "flash": "^1.1.0",
     "mongoose": "^5.9.7",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "randomstring": "^1.1.5"
